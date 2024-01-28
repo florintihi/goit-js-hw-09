@@ -7,6 +7,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+let setColor = null;
+
 startBtn.addEventListener('click', () => {
   startBtn.setAttribute('disabled', '');
   stopBtn.removeAttribute('disabled');
